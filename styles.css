@@ -8,7 +8,7 @@
 .header {
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/banner.png);
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/mathnasium-building.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -48,7 +48,7 @@ nav img {
 .nav-links ul li a {
     color: #fff;
     text-decoration: none;
-    font-size: 28px;
+    font-size: 25px;
 }
 
 /* underline on the menu bar */
@@ -69,10 +69,10 @@ nav img {
 
 /* div-world's best math tutoring */
 .text-box {
-    width: 90%;
+    width: 100%;
     color: #fff;
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
@@ -80,13 +80,13 @@ nav img {
 
 /* title words-worlds best math tutoring*/
 .text-box h1 {
-    font-size: 60px;
+    font-size: 50px;
     color: #fff;
 }
 
 /* paragraph words-learning math is easiest ... */
 .text-box p {
-    margin: 10px 0px 40px;
+    margin: 70px 0px 70px;
     /* top=10px, left/right=0px, bottom=40px */
     font-size: 35px;
     /* color: #fff; */
@@ -100,19 +100,20 @@ nav img {
     color: #fff;
     border: 1px solid #fff;
     padding: 12px 34px;
-    font-size: 20px;
+    font-size: 30px;
     background: transparent;
     position: relative;
     cursor: pointer;
+    
 }
 
 /* button hover effect */
 .hero-btn:hover {
     border: 3px solid red;
-    background: yellow;
+    background: white;
     transition: 1s;
     color: black;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 /* hide small screen menu icons on the main page */
