@@ -104,7 +104,6 @@ nav img {
     background: transparent;
     position: relative;
     cursor: pointer;
-    
 }
 
 /* button hover effect */
@@ -249,7 +248,14 @@ nav .fa {
 /* css for images-london,new york, wash dc */
 .campus-col img {
     width: 100%;
+    height: auto;
     display: block;
+    margin: 10px;
+    /* border-radius: 40px; */
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
 }
 
 /* adding a red filter to the london img */
@@ -391,7 +397,7 @@ nav .fa {
 .cta {
     margin: 100px auto;
     width: 80%;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/banner2.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(images/logo_2.jpg);
     background-position: center;
     background-size: cover;
     border-radius: 10px;
